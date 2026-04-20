@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "commonjs",
+    "rootDir": "./src",
+    "outDir": "./dist",
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "strict": true,
+    "typeRoots": ["./node_modules/@types", "./src/types"],
+     "types": ["node", "mocha"]
+  },
+  "include": ["src/**/*.ts", "src/types/**/*.d.ts"]
+}

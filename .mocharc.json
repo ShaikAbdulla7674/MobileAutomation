@@ -1,0 +1,13 @@
+{
+  "require": [
+    "ts-node/register",
+    "tsconfig-paths/register"
+  ],
+  "reporter": "allure-mocha",
+  "reporter-option": [
+    "resultsDir=allure-results"
+  ],
+  "extension": ["ts"],
+  "spec": "src/tests/**/*.ts",
+  "timeout": 60000
+}
